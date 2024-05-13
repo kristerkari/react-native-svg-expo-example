@@ -1432,10 +1432,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/cli@0.17.10":
-  version "0.17.10"
-  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.17.10.tgz#7dd5e2b4a01f5d29698c431729a19878fbd806f5"
-  integrity sha512-Jw2wY+lsavP9GRqwwLqF/SvB7w2GZ4sWBMcBKTZ8F0lWjwmLGAUt4WYquf20agdmnY/oZUHvWNkrz/t3SflhnA==
+"@expo/cli@0.17.11":
+  version "0.17.11"
+  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.17.11.tgz#85a73fe40523e536bf3ea90b9fb057eaef24d400"
+  integrity sha512-EyAL/x9yyN9nA0iiZC0XZLvSBbKtl1GT38HNgrPmTb0KEzVlpbSJoWfw2vn9g/NnWPS1wMKRU2I5U42d/tvqvg==
   dependencies:
     "@babel/runtime" "^7.20.0"
     "@expo/code-signing-certificates" "0.0.5"
@@ -1522,10 +1522,10 @@
     node-forge "^1.2.1"
     nullthrows "^1.1.1"
 
-"@expo/config-plugins@7.9.1", "@expo/config-plugins@~7.9.0":
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-7.9.1.tgz#fe4f7e4f9d4e87f2dcf2344ffdc59eb466dd5d2e"
-  integrity sha512-ICt6Jed1J0tPYMQrJ8K5Qusgih2I6pZ2PU4VSvxsN3T4n97L13XpYV1vyq1Uc/HMl3UhOwldipmgpEbCfeDqsQ==
+"@expo/config-plugins@7.9.2", "@expo/config-plugins@~7.9.0":
+  version "7.9.2"
+  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-7.9.2.tgz#fc18e84761067ce670742d735b888613c06fbea8"
+  integrity sha512-sRU/OAp7kJxrCUiCTUZqvPMKPdiN1oTmNfnbkG4oPdfWQTpid3jyCH7ZxJEN5SI6jrY/ZsK5B/JPgjDUhuWLBQ==
   dependencies:
     "@expo/config-types" "^50.0.0-alpha.1"
     "@expo/fingerprint" "^0.6.0"
@@ -4658,15 +4658,15 @@ expo-status-bar@~1.11.1:
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.11.1.tgz#a11318741d361048c11db2b16c4364a79a74af30"
   integrity sha512-ddQEtCOgYHTLlFUe/yH67dDBIoct5VIULthyT3LRJbEwdpzAgueKsX2FYK02ldh440V87PWKCamh7R9evk1rrg==
 
-expo@^50.0.17:
-  version "50.0.17"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-50.0.17.tgz#ab0998d7e7c18e8d12efd9091f9688978b0e89ed"
-  integrity sha512-eD8Nh10BgVwecU7EVyogx7X314ajxVpJdFwkXhi341AD61S2WPX31NMHW82XGXas6dbDjdbgtaOMo5H/vylB7Q==
+expo@^50.0.18:
+  version "50.0.18"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-50.0.18.tgz#a6af9b8ed07bd5ed1edb736de86c5197defc6c16"
+  integrity sha512-es0rw+OkQNoaNQcPzv8CUpi5Qd0zipvflr6PgiXLDnv5D58R0GeAQZ7KEgYOlH+HocYrQeVm/zlpOhPPb0CEww==
   dependencies:
     "@babel/runtime" "^7.20.0"
-    "@expo/cli" "0.17.10"
+    "@expo/cli" "0.17.11"
     "@expo/config" "8.5.6"
-    "@expo/config-plugins" "7.9.1"
+    "@expo/config-plugins" "7.9.2"
     "@expo/metro-config" "0.17.7"
     "@expo/vector-icons" "^14.0.0"
     babel-preset-expo "~10.0.2"
