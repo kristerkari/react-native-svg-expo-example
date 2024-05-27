@@ -19,7 +19,7 @@
     "react-native-web": "0.19.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
+    "@babel/core": "^7.24.6",
     "prettier": "^3.2.5",
     "react-native-svg-transformer": "^1.4.0"
   },
