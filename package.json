@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.1",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
+    "patch-package": "^8.0.0",
     "prettier": "^3.3.2",
     "react-native-svg-transformer": "^1.4.0"
   },
