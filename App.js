@@ -1,4 +1,5 @@
-import { SafeAreaView, ScrollView } from "react-native";
+import { ScrollView } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import Autocode from "./logos/autocode.svg";
 import Bower from "./logos/bower.svg";
 import Composer from "./logos/composer.svg";
