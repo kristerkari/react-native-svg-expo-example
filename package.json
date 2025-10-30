@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "react-native-svg-transformer": "^1.5.1"
   },
   "private": true
