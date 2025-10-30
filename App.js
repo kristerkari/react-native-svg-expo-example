@@ -1,5 +1,5 @@
 import { ScrollView } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import Autocode from "./logos/autocode.svg";
 import Bower from "./logos/bower.svg";
 import Composer from "./logos/composer.svg";
@@ -16,26 +16,28 @@ import Stylelint from "./logos/stylelint.svg";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView
-        style={styles.scrollView}
-        contentContainerStyle={styles.containerStyles}
-      >
-        <Bower style={styles.logo} />
-        <Snyk style={styles.logo} />
-        <Drupal style={styles.logo} />
-        <Composer style={styles.logo} />
-        <Ember style={styles.logo} />
-        <Autocode style={styles.logo} />
-        <Egghead style={styles.logo} />
-        <Hostgator style={styles.logo} />
-        <Pug style={styles.logo} />
-        <Stylelint style={styles.logo} />
-        <ReduxObservable style={styles.logo} />
-        <RubyMine style={styles.logo} />
-        <Firefox style={styles.logo} />
-      </ScrollView>
-    </SafeAreaView>
+    <SafeAreaProvider>
+      <SafeAreaView style={styles.container}>
+        <ScrollView
+          style={styles.scrollView}
+          contentContainerStyle={styles.containerStyles}
+        >
+          <Bower style={styles.logo} />
+          <Snyk style={styles.logo} />
+          <Drupal style={styles.logo} />
+          <Composer style={styles.logo} />
+          <Ember style={styles.logo} />
+          <Autocode style={styles.logo} />
+          <Egghead style={styles.logo} />
+          <Hostgator style={styles.logo} />
+          <Pug style={styles.logo} />
+          <Stylelint style={styles.logo} />
+          <ReduxObservable style={styles.logo} />
+          <RubyMine style={styles.logo} />
+          <Firefox style={styles.logo} />
+        </ScrollView>
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
