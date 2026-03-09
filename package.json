@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "react-native-svg-transformer": "^1.5.2"
+    "react-native-svg-transformer": "^1.5.3"
   },
   "private": true
 }
